@@ -1,0 +1,3 @@
+javac --release 8 *.java
+jar cvfm calc.jar manifest.txt *.class
+java -jar calc.jar
