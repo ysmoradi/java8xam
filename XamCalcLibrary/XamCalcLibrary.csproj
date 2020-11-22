@@ -53,10 +53,10 @@
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\calc.jar" />
+    <Folder Include="Additions\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Additions\" />
+    <EmbeddedJar Include="Jars\calc.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
