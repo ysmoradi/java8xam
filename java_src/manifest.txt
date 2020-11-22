@@ -1,1 +1,1 @@
-Main-Class: ClassDemo
+Main-Class: com.ClassDemo

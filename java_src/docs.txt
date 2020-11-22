@@ -1,3 +1,7 @@
-javac --release 8 *.java
-jar cvfm calc.jar manifest.txt *.class
-java -jar calc.jar
+Run:
+    java -jar calc.jar
+
+Compile:
+    javac --release 8 ./com/ClassDemo.java
+    jar cf calc.jar manifest.txt *
+    Open calc.jar in 7zip and add "Main-Class: com.ClassDemo" in first line of META-INF/MANIFEST.MF

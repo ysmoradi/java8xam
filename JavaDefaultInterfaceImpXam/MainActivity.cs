@@ -2,7 +2,6 @@
 using Android.OS;
 using AndroidX.AppCompat.App;
 using Com.Calc;
-using System.Diagnostics;
 using Com;
 
 namespace JavaDefaultInterfaceImpXam
@@ -21,9 +20,6 @@ namespace JavaDefaultInterfaceImpXam
             int result2 = calc.Sum(3, 4, new NumberManagerDefaultImpl());
 
             int result3 = calc.Sum(3, 4, new NumberManagerCustomImpl());
-
-            Debugger.Break();
-
 
             base.OnCreate(savedInstanceState);
 

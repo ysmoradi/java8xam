@@ -342,5 +342,4 @@ healthchecksdb
 /Client/DDS.Nikola.Client.Service/DDS.Model.Context.cs
 /Client/Mobile/Platforms/DDS.Nikola.App.Mobile.Android/custom.aprof
 
-*.jar
 *.class
