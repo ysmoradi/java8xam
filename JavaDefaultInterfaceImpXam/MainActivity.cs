@@ -1,8 +1,8 @@
 ﻿using Android.App;
 using Android.OS;
 using AndroidX.AppCompat.App;
-using Com.Calc;
 using Com;
+using Com.Calc;
 
 namespace JavaDefaultInterfaceImpXam
 {
@@ -21,9 +21,19 @@ namespace JavaDefaultInterfaceImpXam
 
             int result3 = calc.Sum(3, 4, new NumberManagerCustomImpl());
 
+            int result4 = calc.Sum(3, 4, new NumberManagerCustomCSharpImp());
+
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.activity_main);
+        }
+    }
+
+    public class NumberManagerCustomCSharpImp : Java.Lang.Object, INumberManager
+    {
+        public int Change(string input)
+        {
+            return 12;
         }
     }
 }
