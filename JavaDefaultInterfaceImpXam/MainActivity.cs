@@ -1,6 +1,9 @@
 ﻿using Android.App;
 using Android.OS;
 using AndroidX.AppCompat.App;
+using Com.Calc;
+using System.Diagnostics;
+using Com;
 
 namespace JavaDefaultInterfaceImpXam
 {
@@ -13,7 +16,14 @@ namespace JavaDefaultInterfaceImpXam
 
             Calculator calc = new Calculator();
 
-            int result = calc.Sum(1, 2);
+            int result = calc.Sum(3, 4);
+
+            int result2 = calc.Sum(3, 4, new NumberManagerDefaultImpl());
+
+            int result3 = calc.Sum(3, 4, new NumberManagerCustomImpl());
+
+            Debugger.Break();
+
 
             base.OnCreate(savedInstanceState);
 

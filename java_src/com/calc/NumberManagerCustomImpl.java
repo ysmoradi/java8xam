@@ -1,3 +1,5 @@
+package com.calc;
+
 public class NumberManagerCustomImpl implements NumberManager
 {
     public int change(int input)

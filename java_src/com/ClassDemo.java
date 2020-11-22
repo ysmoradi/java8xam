@@ -1,3 +1,6 @@
+package com;
+import com.calc.*;
+
 public class ClassDemo
 {
     public static void main(String[] arg)

@@ -1,3 +1,5 @@
+package com.calc;
+
 public interface NumberManager
 {
     public default int change(int input)
