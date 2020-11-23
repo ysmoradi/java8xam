@@ -31,9 +31,9 @@ namespace JavaDefaultInterfaceImpXam
 
     public class NumberManagerCustomCSharpImp : Java.Lang.Object, INumberManager
     {
-        public int Change(string input)
+        public int Change(int input)
         {
-            return 12;
+            return input * 4;
         }
     }
 }
